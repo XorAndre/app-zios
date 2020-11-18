@@ -7,11 +7,15 @@ import {
 
 //Pages
 import Login from './Pages/Login'
+import Welcome from './Pages/Welcome'
+
+
+
 
 export default function App() {
   return (
     <Template>
-      <Login/>
+      <Welcome/>
       <StatusBar style="auto" />
     </Template>
   );
